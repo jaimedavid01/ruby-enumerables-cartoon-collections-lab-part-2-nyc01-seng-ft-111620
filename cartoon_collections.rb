@@ -12,8 +12,9 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   
   planeteer_calls.map do | calls |
-    puts "#{calls.capitalize}!"
+    call = "#{calls.capitalize}!"
   end
+  call
 end
 
 def long_planeteer_calls(planeteer_calls)
